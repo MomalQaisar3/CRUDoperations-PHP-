@@ -1,0 +1,52 @@
+.loginform{
+    background: radial-gradient(859px at 7.5% 18%, rgb(234, 6, 185) 4.2%, rgb(251, 179, 8) 92.7%);
+    background-size: cover;
+    background-position: center;
+    height: 93vh;
+}
+h1{
+    text-align: center;
+    padding-top: 30px; 
+}
+form{
+    background-color: #fcfefe;
+    width: 25%;
+    margin: 120px auto;
+    padding: 50px;
+    box-shadow: 10px 10px 5px rgb(82,11,77);
+    border-radius: 4px;
+    text-align: center;
+}
+#btn{
+    background: radial-gradient(859px at 7.5% 18%, rgb(234, 6, 185) 4.2%, rgb(251, 179, 8) 92.7%);
+    color: white;
+    padding: 10px;
+    font-size: large;
+    border-radius: 5px;
+}
+@media screen and (max-width:700px){
+    form{
+        width: 65%;
+        padding: 40px;
+    }
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+
+  td {
+    border-bottom: 1px solid #ddd;
+  }
+
